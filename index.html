@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="title">Conversor</h1>
+    <div class="container">
+        <div class="input">
+            <div class="from">
+                <h1 class="binary">Binário</h1>
+                <input type="text"class="numberInput"></input>
+            </div>
+            <div class="buttonReverse">
+                <button class="button" onclick="reverseButton()">
+                    <img src="img/right-arrow-svgrepo-com.svg" alt="">
+                    <img src="img/left-arrow-svgrepo-com.svg" alt="">
+                </button>
+            </div>
+            <div class="to">
+                <h1 class="decimal">Decimal</h1>
+                <div class="result"></div>
+            </div>
+        </div>
+        <button class="convert" onclick="convert()">Converter</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

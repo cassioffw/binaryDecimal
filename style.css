@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #222831;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    color: #f2f2f2;
+    margin-bottom: 10px;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #393e46;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #595959;
+}
+.input{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.from, .to{
+    text-align: center;
+}
+.input .from .numberInput{
+    text-align: center;
+}
+.input .from .numberInput:focus{
+    border: 1px solid #f96d00;
+    outline: none;
+}
+.input h1{
+    font-size: 20px;
+    color: #f2f2f2;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.from input, .to .result{
+    width: 120px;
+    height: 70px;
+    display: flex;
+    word-break: break-all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 16px;
+}
+.to .result{
+    overflow: hidden;
+}
+.buttonReverse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.buttonReverse button{
+    display: flex;
+    flex-direction: column;
+    background-color: #f96d00;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.buttonReverse button:hover{
+    background-color: #222831;
+    transition: all ease 0.5s;
+}
+.buttonReverse img{
+    width: 17px;
+}
+.convert{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f96d00;
+    color: #f2f2f2;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.convert:hover{
+    background-color: #222831;
+    transition: all ease 0.5s;
+}
